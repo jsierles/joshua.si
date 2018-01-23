@@ -7,30 +7,43 @@
         <meta name="description" content="Joshua's site">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
         <link rel="manifest" href="site.webmanifest">
         <link rel="apple-touch-icon" href="icon.png">
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/main.css">
     </head>
-    <body>
-        <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-        <script>
-            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
-        </script>
-        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    <body class="h-100">
+        <div class="flex-ns navy h-100">
+          <div class="sidebar pv4 ph4 tc bg-black-05 navy mw5-ns">
+            <h1 class="f4 center">Hey, I'm Joshua Sierles: husband, dad and tech generalist living in Seville, Spain.</h1>
+            <h2>Now</h2>
+            <p>Digging into DevOps using the Hashicorp stack</p>
+            <p>Building React Native apps</p>
+            <p>Learning Clojure/Clojurescript</p>
+            <h2 class="mt5">Past</h2>
+            <p><a href="past.html">Learn more about my previous projects</a> as a freelancer and full-timer. Also known as a <a href="cv.html">CV/Résumé.</a></p>
+          </div>
+          <div class="main center tc">
+            <div>
+              <h2><a href="https://tomaflamenco.com">tomaflamenco.com</a></h2>
+              <p>Free online flamenco music and dance classes.</p>
+              <p>Videos edited with Final Cut Pro.</p>
+              <p>Site built with Ruby on Rails. <a href="https://github.com/jsierles/tomaflamenco">Check out the source</a>.</p>
+            </div>
+            <div class="mt5">
+              <h2>The <a href="https://rnplay.org">React Native Playground</a></h2>
+              <p>Test and share React Native code in the browser or on a device.</p>
+              <p>Now retired and superseded by <a href="https://snack.expo.io">Snack</a> by the team at <a href="https://expo.io">Expo</a>.</p>
+              <p>Site built with Ruby on Rails and React. App built with React Native! Check out the <a href="https://github.com/rnplay/rnplay-web">web</a> and <a href="https://github.com/rnplay/rnplay-native">app</a> source.</p>
+            </div>
+            <div class="mt5">
+              <h2><a href="https://noodler-app.com">Noodler: The Noodle Soup Oracle</a></h2>
+              <p>Dinner inspiration in a beautifully illustrated mobile app.</p>
+              <p>One of the first React Native apps in the app store. Illustrated and conceived in NYC by <a href="https://michelehumes.com">Michele Humes</a>.</p>
+              <p>App built with React Native.</p>
+            </div>
+        </div>
     </body>
 </html>
