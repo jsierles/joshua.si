@@ -1,3 +1,50 @@
 html {
   font-family: "Nunito", sans-serif;
+  line-height: 1.35em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 20vw 1fr;
+}
+
+.sidebar {
+  position: fixed;
+  width: 20vw;
+}
+
+.main {
+  grid-column-start: 2;
+}
+
+@media (max-width: 768px) {
+
+  .sidebar {
+    position: static;
+    width: 100%;
+  }
+
+  .grid {
+    display: block;
+  }
+}
+
+h3 {
+  margin: 0;
+  margin-bottom: .3em;
+
+}
+h4 {
+  font-size: 80%;
+  margin: 0;
+  color: #555;
+}
+
+
+a {
+  color: black;
+}
+
+h3 a {
+  text-decoration: none;
 }
